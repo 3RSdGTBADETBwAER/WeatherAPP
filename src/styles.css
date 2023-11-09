@@ -1,0 +1,66 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+}
+
+header {
+    padding: 20px;
+    background-color: RGB(66, 72, 116);
+    font-size: 2em;
+    color: white;
+    padding-left: 7%;
+}
+
+main {
+    background-color: RGB(166, 177, 225);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2em;
+}
+
+
+
+#Grades {
+
+    font-size: 3em;
+}
+
+#title {
+    font-size: 3em;
+
+}
+
+#wind {
+
+    font-size: 1.5em;
+}
+
+#humidty {
+
+    font-size: 1.5em;
+}
+
+#clima {
+
+    font-size: 1.5em;
+}
+
+#button {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#CityINP {
+    padding-top: 10px;
+}
+
+#GradesType {
+    position: relative;
+    left: 1%;
+    bottom: 6px;
+}
